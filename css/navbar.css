@@ -1,0 +1,35 @@
+.navbar {
+    position: absolute;
+    margin-bottom: 0;
+    background-color: black;
+    z-index: 999999;
+    border: 0;
+    font-size: 15px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    width:100%;
+  }
+  
+  .navbar a{
+      text-align: center;
+      width: 25%;
+      display: block;
+      padding: 20px;
+      float: left;
+      text-decoration: none;
+      color: white;
+  }
+  .navbar a:hover{
+      background-color: #00ffff;
+      color: black;
+      
+  }
+
+  
+  @media (max-width: 500px) {
+    .navbar a{
+        float: left;
+        text-decoration: none;
+        color: white;
+    }
+  }
